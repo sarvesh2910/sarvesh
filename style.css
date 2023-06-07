@@ -83,13 +83,16 @@ nav,
 }
 
 .work h3 {
-  margin: 0 0 10px;
+  margin: 0;
 }
 
 .work h5 {
   margin: 0 0 10px;
 }
 
+.work-experience {
+  margin: 0 0 20px 0;
+}
 .projects {
   flex-direction: column;
 }
