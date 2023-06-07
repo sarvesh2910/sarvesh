@@ -108,3 +108,81 @@ nav, .navigation-bar-wrapper {
     all: revert;
     margin-left: 20px;
 }
+
+.contact {
+    flex-direction: column;
+}
+.contact-option{
+    display: flex;
+}
+.social{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.contact a{
+    margin: 10px 0;
+
+}
+
+.form{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input,textarea{
+    padding: 8px;
+    width: 50%;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.button {
+    height: 40px;
+    border: 1px solid #edf2fa;
+    width: 49%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #edf2fa;
+}
+
+.secondary {
+    background-color: transparent;
+}
+
+.secondary:hover {
+    color: red;
+    border-color: red;
+}
+
+@media screen and (max-width: 500px) {
+   .hide{
+     display: none;
+   }
+    .contact-option{
+        flex-direction: column;
+    }
+    .social{
+        align-items: flex-start;
+    }
+}
+
