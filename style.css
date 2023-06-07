@@ -89,10 +89,22 @@ nav, .navigation-bar-wrapper {
     margin: 0 0 10px;
 }
 
-.work li  {
-    all: revert;
-    margin-left: 20px;
-}
 .work-experience{
     margin: 0 0 20px 0;
+}
+.projects{
+    flex-direction: column;
+}
+
+.skills{
+    flex-direction: column;
+    justify-content: center;
+}
+.skills span{
+    font-weight: bold;
+}
+
+.work li, .projects li,.skills li {
+    all: revert;
+    margin-left: 20px;
 }
