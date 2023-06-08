@@ -163,14 +163,14 @@ textarea {
 }
 .button {
   height: 40px;
-  border: 1px solid #edf2fa;
+  border: 1px solid #d4e3ff;
   width: 49%;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .primary {
-  background-color: #edf2fa;
+  background-color: #d4e3ff;
 }
 
 .secondary {
