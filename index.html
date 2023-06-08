@@ -2,19 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sarvesh Biradar</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
   </head>
   <body>
     <section id="about" class="section about">
       <img
-        alt="A person in red jacket standing on the dunes at sunset time"
+        alt="Sarvesh standing in red jacket on top of dunes at sunset time"
         class="img"
         src="./images/sarvesh.jpeg"
       />
@@ -29,7 +25,7 @@
     <header class="navigation-bar">
       <nav>
         <div class="navigation-bar-wrapper">
-          <span class="hide">Sarvesh Biradar</span>
+          <span class="title hide">Sarvesh Biradar</span>
           <ul class="list-wrapper">
             <li class="list-item">
               <a class="links" href="#about">About</a>
@@ -52,11 +48,11 @@
       </nav>
     </header>
     <section id="work" class="section work width">
-      <h1 class="stick">Experience</h1>
+      <h2 class="stick">Experience</h2>
 
       <div class="work-experience">
         <h3>Software Engineer III</h3>
-        <h5>Walmart.</h5>
+        <h4>Walmart.</h4>
         <ul>
           <li>
             Developed and migrated the orchestration layer from Rest API to
@@ -78,7 +74,7 @@
       </div>
       <div class="work-experience">
         <h3>Software Engineer</h3>
-        <h5>Magnifi.</h5>
+        <h4>Magnifi.</h4>
         <ul>
           <li>
             Created new user flows and screens to enable Magnifi as an
@@ -97,7 +93,7 @@
       </div>
       <div class="work-experience">
         <h3>Frontend Software Engineer</h3>
-        <h5>Mobikon.</h5>
+        <h4>Mobikon.</h4>
         <ul>
           <li>
             mReserve - Product lead, built the product roadmap, and orchestrated
@@ -120,7 +116,7 @@
       </div>
       <div class="work-experience">
         <h3>Fullstack Software Intern</h3>
-        <h5>Sparup Sports Technology.</h5>
+        <h4>Sparup Sports Technology.</h4>
         <ul>
           <li>
             Developed a powerful tool that gives an insight into players'
@@ -136,7 +132,7 @@
       </div>
     </section>
     <section id="projects" class="section projects">
-      <h1 class="stick">Projects</h1>
+      <h2 class="stick">Projects</h2>
       <div class="work-experience">
         <h3>
           <a href="https://github.com/cs594-spring-2023-project/594irc"
@@ -157,7 +153,9 @@
       </div>
       <div class="work-experience">
         <h3>
-          <a href="https://github.com/sarvesh2910/Click-n-Split"
+          <a
+            aria-label="Application Click and Split"
+            href="https://github.com/sarvesh2910/Click-n-Split"
             >Click-n-Split 🔗</a
           >
         </h3>
@@ -190,7 +188,7 @@
       </div>
     </section>
     <section id="skills" class="section skills">
-      <h1 class="stick">Skills</h1>
+      <h2 class="stick">Skills</h2>
       <ul>
         <li>
           <span class="bold">Programming</span> - JavaScript, Typescript, Python
@@ -210,10 +208,10 @@
       </ul>
     </section>
     <section id="contact" class="section contact">
-      <h1 class="stick">Contact Me</h1>
+      <h2 class="stick">Contact Me</h2>
       <div class="contact-option">
         <div class="social">
-          <h4 class="form-heading">Connect on social platform</h4>
+          <h3 class="form-heading">Connect on social platform</h3>
           <div class="content">
             <a href="https://github.com/sarvesh2910">Github 🔗</a>
             <a href="https://www.linkedin.com/in/sarveshbiradar/"
@@ -221,8 +219,8 @@
             >
           </div>
         </div>
-        <form id="form" onsubmit="formSubmit()" class="form">
-          <h4 class="form-paragraph">Fill up the items in the form below.</h4>
+        <form class="form">
+          <h3 class="form-paragraph">Fill up the items in the form below.</h3>
           <div class="form-question">
             <label class="label" for="name">Name:</label>
             <input type="text" id="name" name="name" />
@@ -246,4 +244,5 @@
       </div>
     </section>
   </body>
+  <script src="index.js"></script>
 </html>
