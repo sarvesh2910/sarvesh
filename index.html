@@ -6,42 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Sarvesh Biradar</title>
     <link rel="stylesheet" href="style.css"/>
-    <!-- Google tag (gtag.js) -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-83CWQBCS7Z"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
         gtag('config', 'G-83CWQBCS7Z');
     </script>
 </head>
 <body>
 <section id="about" class="section about">
+
+    <h1>
+        <span class="animation_0">Hi!</span>
+        <span class="animation_1">I'm</span>
+        <span class="animation_2">Sarvesh.</span>
+        <span class="animation_3"> 👋<br/></span>
+        <span class="animation_4"> A software engineer <br> </span>
+        <span class="animation_5"> with eye for design.</span>
+
+    </h1>
     <img
             alt="Sarvesh standing in red jacket on top of dunes at sunset time"
-            class="img"
+            class="animation_6 img"
             src="./images/sarvesh.jpeg"
     />
-    <h1>
-        Hello!👋<br/>
-        My name is Sarvesh. <br/>
-        I'm a passionate frontend software engineer with over 4 years of experience developing pixel perfect, highly scalable and performant web apps.
-        <br>My expertise lies in ReactJS, NextJS, NodeJS and Javascript.
-    </h1>
+    <a href="#work" class="animation_6 down-arrow">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0.4" viewBox="0 0 24 24" aria-hidden="true"
+             height="1.4em" width="1.4em" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                  d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z"
+                  clip-rule="evenodd"></path>
+        </svg>
+    </a>
 </section>
-<header class="navigation-bar">
+<header class="animation_6 navigation-bar">
     <nav>
         <div class="navigation-bar-wrapper">
-          <span class="title hide">
-           <a href="#about">Sarvesh Biradar</a></span>
+          <span class="title hide"> </span>
             <ul class="list-wrapper">
                 <li class="list-item">
                     <a class="links" href="#work">Experience</a>
                 </li>
-<!--                <li class="list-item">-->
-<!--                    <a class="links" href="#projects">Projects</a>-->
-<!--                </li>-->
+                <li class="list-item">
+                    <a class="links" href="#projects">Projects</a>
+                </li>
                 <li class="list-item">
                     <a class="links" href="#skills">Skills</a>
                 </li>
@@ -52,6 +72,7 @@
                     <a class="links" href="#contact">Contact</a>
                 </li>
             </ul>
+
         </div>
     </nav>
 </header>
@@ -74,7 +95,8 @@
 
             </li>
             <li>
-                Built resilience for peak holiday traffic by conducting regular stress tests. Ensured seamless service for up to 7 million transactions per hour.
+                Built resilience for peak holiday traffic by conducting regular stress tests. Ensured seamless service
+                for up to 7 million transactions per hour.
             </li>
             <li>
                 Piloted support for Multi Tenant Environment and Apple Message to provide better customer service.
@@ -100,7 +122,8 @@
 
             </li>
             <li>
-                Engineered a feature where advisors can preview various performance analyses of selected funds and generate customized proposals to be shown to the clients.
+                Engineered a feature where advisors can preview various performance analyses of selected funds and
+                generate customized proposals to be shown to the clients.
 
             </li>
         </ul>
@@ -116,15 +139,18 @@
                 mReserve - Product lead, built the product road-map, and orchestrated the revamp of the User Interface.
             </li>
             <li>
-                Implemented a Couch-Pouch DB layer to facilitate offline usage of customer data on reservation floor tablets.
+                Implemented a Couch-Pouch DB layer to facilitate offline usage of customer data on reservation floor
+                tablets.
 
             </li>
             <li>
-                Developed many components from scratch to deliver a highly optimized and performant ReactJS app, which is 4 times faster than previous versions and a 40% smaller in JavaScript bundle size
+                Developed many components from scratch to deliver a highly optimized and performant ReactJS app, which
+                is 4 times faster than previous versions and a 40% smaller in JavaScript bundle size
 
             </li>
             <li>
-                Established CI/CD pipelines for Web, iOS and Android to automate testing, deployment and distribution of the app.
+                Established CI/CD pipelines for Web, iOS and Android to automate testing, deployment and distribution of
+                the app.
 
             </li>
         </ul>
@@ -137,71 +163,73 @@
         <h4 class="company">Sparup Sports Technology.</h4>
         <ul>
             <li>
-                Developed a tool that gives an insight into players’ performance. Created a micro-service hosted on Lambda to download reports in PDF format for single or multiple players.
+                Developed a tool that gives an insight into players’ performance. Created a micro-service hosted on
+                Lambda to download reports in PDF format for single or multiple players.
             </li>
             <li>
-                Improved web-app load time by 40-45 seconds and security measures by implementing Nginx and HTTP/2 (SPDY), HTTPS etc.
+                Improved web-app load time by 40-45 seconds and security measures by implementing Nginx and HTTP/2
+                (SPDY), HTTPS etc.
             </li>
         </ul>
     </div>
 </section>
-<!--<section id="projects" class="section projects">-->
-<!--    <h2 class="stick">Projects</h2>-->
-<!--    <div class="work-experience">-->
-<!--        <h3>-->
-<!--            <a href="https://github.com/cs594-spring-2023-project/594irc"-->
-<!--            >Internet Relay Chat 🔗</a-->
-<!--            >-->
-<!--        </h3>-->
-<!--        <ul>-->
-<!--            <li>-->
-<!--                For the Internet Protocol course, I understood the RFC 1459-->
-<!--                document, and built a functional IRC app in python from scratch.-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                This project involved the implementation of numerous features that-->
-<!--                enabled direct and instant communication between clients, precisely-->
-<!--                following the specifications outlined in the document-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--    <div class="work-experience">-->
-<!--        <h3>-->
-<!--            <a-->
-<!--                    aria-label="Application Click and Split"-->
-<!--                    href="https://github.com/sarvesh2910/Click-n-Split"-->
-<!--            >Click-n-Split 🔗</a-->
-<!--            >-->
-<!--        </h3>-->
-<!--        <ul>-->
-<!--            <li>-->
-<!--                As a part of the SE project, Worked in a team to create a web application-->
-<!--                that simplifies the process of splitting bills after a group purchase.-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                It takes a photo of the receipt as input, processes the receipt through optical character recognition-->
-<!--                (OCR)-->
-<!--                to extract purchase details, and then allows users to individually select items and split the bill-->
-<!--                accordingly among the contributors.-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--    <div class="work-experience">-->
-<!--        <h3>-->
-<!--            <a href="https://github.com/KSKRLIFE/CS565Project">Splashgram 🔗</a>-->
-<!--        </h3>-->
-<!--        <ul>-->
-<!--            <li>-->
-<!--                As a part of FullStack Development class created this project which-->
-<!--                displays images sources from Unsplash in instagram style layout.-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                Completely wrote backend from scratch and implement almost all of-->
-<!--                the functionalities available of Unsplash.-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--</section>-->
+<section id="projects" class="section projects">
+    <h2 class="stick">Projects</h2>
+    <div class="work-experience">
+        <h3>
+            <a href="https://github.com/cs594-spring-2023-project/594irc"
+            >Internet Relay Chat 🔗</a
+            >
+        </h3>
+        <ul>
+            <li>
+                For the Internet Protocol course, I understood the RFC 1459
+                document, and built a functional IRC app in python from scratch.
+            </li>
+            <li>
+                This project involved the implementation of numerous features that
+                enabled direct and instant communication between clients, precisely
+                following the specifications outlined in the document
+            </li>
+        </ul>
+    </div>
+    <div class="work-experience">
+        <h3>
+            <a
+                    aria-label="Application Click and Split"
+                    href="https://github.com/sarvesh2910/Click-n-Split"
+            >Click-n-Split 🔗</a
+            >
+        </h3>
+        <ul>
+            <li>
+                As a part of the SE project, Worked in a team to create a web application
+                that simplifies the process of splitting bills after a group purchase.
+            </li>
+            <li>
+                It takes a photo of the receipt as input, processes the receipt through optical character recognition
+                (OCR)
+                to extract purchase details, and then allows users to individually select items and split the bill
+                accordingly among the contributors.
+            </li>
+        </ul>
+    </div>
+    <div class="work-experience">
+        <h3>
+            <a href="https://github.com/KSKRLIFE/CS565Project">Splashgram 🔗</a>
+        </h3>
+        <ul>
+            <li>
+                As a part of FullStack Development class created this project which
+                displays images sources from Unsplash in instagram style layout.
+            </li>
+            <li>
+                Completely wrote backend from scratch and implement almost all of
+                the functionalities available of Unsplash.
+            </li>
+        </ul>
+    </div>
+</section>
 <section id="skills" class="section skills">
     <h2 class="stick">Skills</h2>
     <ul>
@@ -211,7 +239,8 @@
     </ul>
     <ul>
         <li>
-            <span class="bold">Framework</span> - ReactJS, NextJS, NodeJS, React Query, Flask, Spring Boot, MongoDB, Testcafe, Jest.
+            <span class="bold">Framework</span> - ReactJS, NextJS, NodeJS, React Query, Flask, Spring Boot, MongoDB,
+            Testcafe, Jest.
         </li>
     </ul>
     <ul>

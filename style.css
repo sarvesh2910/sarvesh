@@ -1,220 +1,311 @@
 * {
-  box-sizing: border-box;
-  font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
 body {
-  margin: 0;
-  background: #f9fbfd;
+    margin: 0;
+    background: #fafafa;
 }
 
 a {
-  all: unset;
-  cursor: pointer;
+    all: unset;
+    cursor: pointer;
 }
 
 li,
 ul {
-  all: unset;
+    all: unset;
 }
+
+.animation_0 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animation_1 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animation_2 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 600ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animation_3 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 900ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animation_4 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1300ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+.animation_5 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1600ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animation_6 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
 
 .navigation-bar {
-  display: flex;
-  background: #edf2fa;
-  position: sticky;
-  top: 0;
-  z-index: 33;
+    display: flex;
+    background: #edf2fa;
+    position: sticky;
+    top: 0;
+    z-index: 33;
 }
 
-nav{
-  position: sticky;
-  width: 100%;
-  top: 0;
-  display: flex;
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
 }
+
 .navigation-bar-wrapper {
-  max-width: 900px;
-  width: 100%;
-  display: flex;
-  height: 50px;
-  padding: 0 10px;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    padding: 0 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
+
 .title {
-  margin-left: 10px;
-  font-weight: bold;
+    margin-left: 10px;
 }
 
 .list-wrapper {
-  display: flex;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 12px 0;
 }
 
 .list-item a {
-  padding: 14px 0 14px 14px;
-  cursor: pointer;
+    padding: 14px 0 14px 14px;
+    cursor: pointer;
 }
 
 .section {
-  width: 100%;
-  max-width: 900px;
-  padding: 20px 10px 10px 10px;
-  border-radius: 30px;
-  margin: 0 auto;
-  display: flex;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
 }
 
 
 .stick {
-  position: sticky;
-  top: 50px;
-  background: #f9fbfd;
-  margin: 15px 0 30px;
-  padding: 10px 0;
-  border-bottom: 1px solid #c4c9d1;
+    position: sticky;
+    top: 50px;
+    background: #f9fbfd;
+    margin: 15px 0 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #c4c9d1;
 }
+
 .about {
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-  height: calc(100vh - 50px);
-  margin-top: 0;
-  padding-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
 
 }
 
 .img {
-  border-radius: 50%;
-  width: 200px;
+    border-radius: 50%;
+    width: 220px;
+    border-width: 14px;
+    border-color: #e8e8e8;
+    border-style: solid;
+}
+
+
+.down-arrow {
+    padding-top: 10em;
 }
 
 .work, .projects, .skills, .ed {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .work h3, .projects h3, .skills h3 {
-  margin: 0;
+    margin: 0;
 }
 
 .work h4 {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
 }
 
 .work-experience {
-  margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .skills {
-  justify-content: center;
+    justify-content: center;
 }
+
 .skills span {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .work li,
 .projects li,
 .skills li {
-  all: revert;
-  margin: 8px 0 0 20px ;
+    all: revert;
+    margin: 8px 0 0 20px;
 }
 
 .contact {
-  flex-direction: column;
+    flex-direction: column;
 }
+
 .contact-option {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .content {
-  align-items: flex-start;
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
 }
+
 .contact a {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .form {
-  max-width: 400px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 .form-question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 input,
 textarea {
-  padding: 8px;
-  width: 50%;
+    padding: 8px;
+    width: 50%;
 }
+
 .button-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
+
 .button {
-  height: 40px;
-  border: 1px solid #d4e3ff;
-  width: 49%;
-  font-size: 1rem;
-  cursor: pointer;
+    height: 40px;
+    border: 1px solid #d4e3ff;
+    width: 49%;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .primary {
-  background-color: #d4e3ff;
+    background-color: #d4e3ff;
 }
 
 .secondary {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .secondary:hover {
-  color: red;
-  border-color: red;
+    color: red;
+    border-color: red;
 }
 
 @media screen and (max-width: 500px) {
-  .hide {
-    display: none!important;
-  }
-  .contact-option {
-    flex-direction: column;
-  }
-  .social {
-    align-items: flex-start;
-  }
-  .list-item a {
-    padding: 14px 8px;
-  }
-  .navigation-bar-wrapper {
-    justify-content: space-around;
-  }
+    .hide {
+        display: none !important;
+    }
+
+    .contact-option {
+        flex-direction: column;
+    }
+
+    .social {
+        align-items: flex-start;
+    }
+
+    .list-item a {
+        padding: 14px 8px;
+    }
+
+    .navigation-bar-wrapper {
+        justify-content: space-around;
+    }
 }
 
-.company{
-  font-style: italic;
-}
-.title{
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
-.title span{
-  font-size: 14px;
-  font-weight: normal;
+.company {
+    font-style: italic;
 }
 
-a:hover{
-  text-decoration: underline;
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.title span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
 }
