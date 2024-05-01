@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-
 }
 
 html {
@@ -9,13 +8,16 @@ html {
 }
 
 h1 {
-    font-size: 1.8em;
+    font-size: 2.2em;
+    font-weight: 500;
+    letter-spacing: -.05em;
+}
+h2,h3,h4{
     font-weight: 600;
 }
-
 body {
     margin: 0;
-    background: #fafafa;
+    background: #ffffff;
 }
 
 a {
@@ -87,7 +89,7 @@ ul {
 
 .navigation-bar {
     display: flex;
-    background: #edf2fa;
+    background: #ececec;
     position: sticky;
     top: 0;
     z-index: 33;
@@ -140,9 +142,12 @@ nav {
 .stick {
     position: sticky;
     top: 50px;
-    background: #f9fbfd;
-    margin: 15px 0 30px;
-    padding: 10px 0;
+    background: #ffffff;
+    text-align: center;
+    margin: 15px 0 30px 0;
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 1.3em;
     border-bottom: 1px solid #c4c9d1;
 }
 
@@ -159,8 +164,8 @@ nav {
 
 .img {
     border-radius: 50%;
-    width: 220px;
-    border-width: 14px;
+    width: 180px;
+    border-width: 10px;
     border-color: #e8e8e8;
     border-style: solid;
 }
@@ -198,7 +203,12 @@ nav {
 .projects li,
 .skills li {
     all: revert;
-    margin: 8px 0 0 20px;
+    margin: 4px 0 0 20px;
+    color: #1e1e1e;
+}
+
+li::marker {
+    color: #525252;
 }
 
 .contact {
@@ -222,53 +232,6 @@ nav {
 .contact a {
     margin: 10px 0;
 }
-
-.form {
-    max-width: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-input,
-textarea {
-    padding: 8px;
-    width: 50%;
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.button {
-    height: 40px;
-    border: 1px solid #d4e3ff;
-    width: 49%;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.primary {
-    background-color: #d4e3ff;
-}
-
-.secondary {
-    background-color: transparent;
-}
-
-.secondary:hover {
-    color: red;
-    border-color: red;
-}
-
 @media screen and (max-width: 500px) {
     .hide {
         display: none !important;
@@ -292,7 +255,8 @@ textarea {
 }
 
 .company {
-    font-style: italic;
+    /*font-style: italic;*/
+    font-weight: 500;
 }
 
 .title {
